@@ -37,15 +37,15 @@
     "MQTT": {
       "anonymous": false,
       "server": "192.168.219.191",
-      "username": "yihow2",
-      "password": "dlaejrtn12@"
+      "username": "id",
+      "password": "pw"
     },
     "Wallpad": {
       "light": true,
-      "plug": true,
+      "plug": false,
       "thermostat": true,
       "fan": true,
-      "gas": true,
+      "gas": false,
       "elevator": true
     },
     "Advanced": {
@@ -58,23 +58,23 @@
     "KOCOM_LIGHT_SIZE": [
       {
         "name": "livingroom",
-        "number": 3
+        "number": 1
       },
       {
         "name": "bedroom",
-        "number": 2
+        "number": 1
       },
       {
         "name": "room1",
-        "number": 2
+        "number": 1
       },
       {
         "name": "room2",
-        "number": 2
+        "number": 1
       },
       {
         "name": "kitchen",
-        "number": 3
+        "number": 0
       }
     ],
     "KOCOM_PLUG_SIZE": [
