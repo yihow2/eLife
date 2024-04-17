@@ -22,7 +22,7 @@
       "type": "Socket"
     },
     "Socket": {
-      "server": "192.168.219.172",
+      "server": "192.168.219.119",
       "port": 8899
     },
     "SocketDevice": {
@@ -36,7 +36,7 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.219.191",
+      "server": "192.168.219.172",
       "username": "id",
       "password": "pw"
     },
@@ -84,19 +84,19 @@
       },
       {
         "name": "bedroom",
-        "number": 2
+        "number": 3
       },
       {
         "name": "room1",
-        "number": 2
+        "number": 3
       },
       {
         "name": "room2",
-        "number": 2
+        "number": 3
       },
       {
         "name": "kitchen",
-        "number": 3
+        "number": 2
       }
     ],
     "KOCOM_ROOM": [
