@@ -19,10 +19,10 @@
   ],
   "options": {
     "RS485": {
-      "type": "Serial"
+      "type": "Socket"
     },
     "Socket": {
-      "server": "192.168.x.x",
+      "server": "192.168.219.172",
       "port": 8899
     },
     "SocketDevice": {
@@ -36,17 +36,17 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.x.x",
-      "username": "id",
-      "password": "pw"
+      "server": "192.168.219.191",
+      "username": "yihow2",
+      "password": "dlaejrtn12@"
     },
     "Wallpad": {
-      "light": false,
-      "plug": false,
-      "thermostat": false,
-      "fan": false,
-      "gas": false,
-      "elevator": false
+      "light": true,
+      "plug": true,
+      "thermostat": true,
+      "fan": true,
+      "gas": true,
+      "elevator": true
     },
     "Advanced": {
       "INIT_TEMP": 22,
