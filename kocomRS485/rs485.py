@@ -1041,8 +1041,8 @@ class Kocom(rs485):
                     if mode == 'heat':
                         p_value += '1100'
                     elif mode == 'off':
-                        # p_value += '0001'
-                        p_value += '0100'
+                        # p_value += '0000'
+                        p_value += '0000'
                     else:
                         p_value += '1101'
                     p_value += '{0:02x}'.format(int(float(target_temp)))
